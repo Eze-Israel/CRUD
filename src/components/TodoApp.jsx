@@ -143,9 +143,9 @@ export default function TodoApp() {
             <button onClick={() => setIsEditing(false)} className="bg-blue-500 px-2 py-1">Cancel</button>
           </form>
         ) : (
-          <form onSubmit={handleFormSubmit} className="shadow-inner shadow-md shadow-gray-400 p-4 text-center">
+          <form onSubmit={handleFormSubmit} className="shadow-inner shadow-md shadow-gray-400 p-2 text-center">
              
-            <h2 className="bg-gray-700 p-2 font-bold underline text-center">Create, Read, Update, Delete</h2>
+            <h2 className="bg-gray-700 p-2 font-bold underline text-center text-blue-100">Create, Read, Update, Delete</h2>
             <label htmlFor="todo">Add todo: </label>
             <input
               name="todo"

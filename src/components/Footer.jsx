@@ -15,7 +15,7 @@ const Footer = () => {
      justifyContent: 'center', alignItems:'center' }}>
  <div className='mt-10  border-t-2  border-t-red-500 border-b-red-500 border-b-2'>
   <h1 className='text-3xl'>Reach Me</h1>
-  <hr/>
+  <hr />
     <p className='mb-2'><FaEnvelope  className='text-orange-600 text-3xl mb-2'/> Email: Ezeisraeloluoma123@gmail.com  </p>
     <p><FaPhone  className='text-orange-600 text-3xl'/> Phone: +2347061033459  </p>
     <a href='https://wa.me/+2347061033459' target='blank'>
