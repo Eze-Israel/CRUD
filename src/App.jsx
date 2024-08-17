@@ -1,5 +1,6 @@
 import TodoApp from "./components/TodoApp"
 import Animation from "./components/Animation"
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <TodoApp />
     </div>
     <Animation />
+    <Footer />
     </>
   )
 }
